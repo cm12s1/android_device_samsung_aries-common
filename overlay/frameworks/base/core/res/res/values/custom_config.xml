@@ -17,10 +17,12 @@
 ** See the License for the specific language governing permissions and
 ** limitations under the License.
 */
--->
-<resources>
-  <string-array translatable="false" name="config_rebootActionsList">
+
+<string-array translatable="false" name="config_rebootActionsList">
     <item>reboot</item>
     <item>reboot_recovery</item>
   </string-array>
+-->
+<resources>
+  
 </resources>
