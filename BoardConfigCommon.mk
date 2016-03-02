@@ -114,15 +114,6 @@ endif
 # ART
 WITH_ART_SMALL_MODE := true
 
-# Recovery
-TARGET_USERIMAGES_USE_EXT4 := true
-TARGET_USERIMAGES_USE_F2FS := true
-BOARD_HAS_NO_SELECT_BUTTON := true
-BOARD_USES_BML_OVER_MTD := true
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/aries-common/shbootimg.mk
-TARGET_RECOVERY_FSTAB := device/samsung/aries-common/fstab.aries
-RECOVERY_FSTAB_VERSION := 2
-
 # Open Source Charging Mode
 BOARD_POWER_SUPPLY_PATH := /sys/class/power_supply
 BOARD_BATTERY_SYSFS_PATH := $(BOARD_POWER_SUPPLY_PATH)/battery
